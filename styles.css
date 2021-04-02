@@ -7,16 +7,18 @@
 body{
   font-family: 'Roboto Slab', serif;
   font-family: 'Train One', cursive;
-}
+} 
 
 #home {
-  background:  radial-gradient(#fff, black);
+  background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(img/Pic1.jpg);
+  background-size: center;
+  background-position: center;
+  height: 100vh;
 }
+
 #home row{
   margin-top: 70px;
 }
-
-
 .container{
   max-height: 1300px;
   margin: auto;
@@ -37,13 +39,12 @@ body{
    -webkit-text-fill-color: transparent;
    -moz-text-fil-color: transparent;
 }
-.col-2{
+ .col-2{
   flex-basis: 50%;
   min-width: 300px;
-  position: relative;
-}
+} 
 
-.col-2 img{
+/* .col-2 img{
   max-width: 100%;
   padding: 50px 0;
 }
@@ -56,12 +57,12 @@ body{
   cursor: pointer;
   background: slategray;
   opacity: 0.5;
-}
+} */
 
 .col-2 h1{
   font-size: 50px;
   line-height: 60px;
-  margin: 25px 0;
+  margin: 30% 0 0 10%;
    background-color: white;
    background-image: linear-gradient(to top, #fff 0%, #63d2db 100%);
    background-size: 100%;
@@ -72,6 +73,7 @@ body{
 }
 .col-2 h3{
   text-align: center;
+  color: #fff;
 }
 .deadline {
   display: flex;
@@ -83,10 +85,51 @@ body{
   font-weight: bolder;
   color: #fff;
 }
+.col-2 span{
+  color: #fff;
+}
 
 .time {
   text-align: center;
   border: 1px solid #fff;
   border-radius: 10%;
   padding: 10px;
+}
+
+/* greetings section */
+#greetings {
+  width: 100%;
+  padding: 70px 0;
+  position: relative;
+  /* background-color: rgb(124, 139, 124); */
+}
+.title-text{
+  text-align: center;
+  padding-bottom: 70px;
+  
+}
+.title-text h5{
+  font-size: 50px;
+  margin: auto;
+  font-weight: bold;
+  
+  z-index: 1;
+  display: inline-block;
+  color: purple;
+}
+.title-text p{
+  font-size: 15px;
+  font-style: italic;
+  margin: 20px;
+  font-family: 'Dancing Script', cursive;
+
+}
+.music{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+.music audio{
+  outline: none;
+  
 }

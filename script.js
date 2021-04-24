@@ -73,3 +73,173 @@ const getCountDownStart = () => {
 };
 const counter = setInterval(getCountDownStart, 1000);
 getCountDownStart();
+
+const photoGallery = document.querySelector('.photo-gallery');
+const bestiesGallery = document.querySelector('.besties-gallery');
+
+//stories
+// let curentActive = 1;
+// const story = document.querySelector(".story");
+// const prevBtn = document.querySelector(".prevBtn");
+// const nextBtn = document.querySelector(".nextBtn");
+
+// const displayActive = document.querySelectorAll(".story-btn");
+
+// nextBtn.addEventListener("click", ()=>{
+  
+//     curentActive++;
+  
+  
+//   console.log(nextBtn);
+// })
+
+const pictures = [
+ 
+  {
+    id: 6,
+    category: "intro",
+    image: "./img/pic(6).jpg"
+  },
+  {
+    id: 7,
+    category: "intro",
+    image: "./img/pic(7).jpg"
+  },
+  {
+    id: 8,
+    category: "intro",
+    image: "./img/pic(8).jpg"
+  },
+  {
+    id: 14,
+    category: "intro",
+    image: "./img/pic(18).jpg"
+  },
+  {
+    id: 15,
+    category: "All",
+    image: "./img/pic(13).jpg"
+  },
+  {
+    id: 16,
+    category: "All",
+    image: "./img/pic(14).jpg"
+  },
+  {
+    id: 9,
+    category: "intro",
+    image: "./img/pic(12).jpg"
+  },
+  {
+    id: 10,
+    category: "intro",
+    image: "./img/pic(10).jpg"
+  },
+  {
+    id: 13,
+    category: "intro",
+    image: "./img/pic(11).jpg"
+  },
+  {
+    id: 3,
+    category: "All",
+    image: "./img/pic(3).jpg"
+  },
+  {
+    id: 4,
+    category: "All",
+    image: "./img/pic(4).jpg"
+  },
+  {
+    id: 5,
+    category: "All",
+    image: "./img/pic(5).jpg"
+  },
+];
+const besties = [
+  {
+    id: 1,
+    images: "./img/adetayo2.jpeg",
+    name: "Adetayo"
+  },
+  {
+    id: 2,
+    images: "./img/Doyin2.jpeg",
+    name: "Doyin"
+  },
+  {
+    id: 3,
+    images: "./img/Elizabeth.jpeg",
+    name: "Elizabeth"
+  },
+  {
+    id: 4,
+    images: "./img/lolade.jpeg",
+    name: "Lolade"
+  },
+  {
+    id: 5,
+    images: "./img/ope.jpeg",
+    name: "Ope"
+  },
+  
+  {
+    id: 6,
+    images: "./img/m1.jpg",
+    name: "Ojewande"
+  },
+  {
+    id: 7,
+    images: "./img/m2.jpg",
+    name: "Akintola"
+  },
+  {
+    id: 9,
+    images: "./img/empty.jpg",
+    name: "Name"
+  },
+  {
+    id: 10,
+    images: "./img/empty.jpg",
+    name: "Name"
+  },
+  {
+    id: 11,
+    images: "./img/empty.jpg",
+    name: "Name"
+  },
+  {
+    id: 12,
+    images: "./img/empty.jpg",
+    name: "Name"
+  },
+  {
+    id: 12,
+    images: "./img/empty.jpg",
+    name: "Name"
+  },
+]
+
+
+window.addEventListener('DOMContentLoaded', ()=>{
+  displayPictures();
+  
+});
+
+const displayPictures = () =>{
+  const displayPic = pictures.map((pic) =>{
+    return `<div class="col-4">
+            <img src="${pic.image}" alt="">
+            </div> `
+  });
+  const displayPhoto = besties.map((photo) =>{
+    return `<div class="col-3">
+            <img src="${photo.images}" alt="">
+            <p>${photo.name}</p>
+            </div> `
+  })
+  showPhoto = displayPhoto.join('')
+    bestiesGallery.innerHTML = showPhoto;
+  showPicture = displayPic.join('')
+    photoGallery.innerHTML = showPicture;
+}

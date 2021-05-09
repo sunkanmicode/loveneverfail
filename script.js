@@ -98,63 +98,68 @@ const pictures = [
   {
     id: 6,
     category: "intro",
-    image: "./img/pic(6).jpg"
+    image: "./img/pic (4).jpg"
   },
   {
     id: 7,
     category: "intro",
-    image: "./img/pic(7).jpg"
+    image: "./img/pic (14).jpg"
   },
   {
     id: 8,
     category: "intro",
-    image: "./img/pic(8).jpg"
+    image: "./img/pic (11).jpg"
   },
   {
     id: 14,
     category: "intro",
-    image: "./img/pic(18).jpg"
+    image: "./img/pic (12).jpg"
   },
   {
     id: 15,
     category: "All",
-    image: "./img/pic(13).jpg"
+    image: "./img/pic (2).jpg"
   },
   {
     id: 16,
     category: "All",
-    image: "./img/pic(14).jpg"
+    image: "./img/pic (6).jpg"
   },
   {
     id: 9,
     category: "intro",
-    image: "./img/pic(12).jpg"
+    image: "./img/pic (5).jpg"
   },
   {
     id: 10,
     category: "intro",
-    image: "./img/pic(10).jpg"
+    image: "./img/pic (3).jpg"
   },
   {
     id: 13,
     category: "intro",
-    image: "./img/pic(11).jpg"
+    image: "./img/pic (7).jpg"
   },
   {
     id: 3,
     category: "All",
-    image: "./img/pic(3).jpg"
+    image: "./img/pic (8).jpg"
   },
   {
     id: 4,
     category: "All",
-    image: "./img/pic(4).jpg"
+    image: "./img/pic (9).jpg"
   },
   {
     id: 5,
     category: "All",
-    image: "./img/pic(5).jpg"
+    image: "./img/pic (10).jpg"
   },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/pic (12).jpg"
+  // },
 ];
 const besties = [
   {
@@ -164,8 +169,8 @@ const besties = [
   },
   {
     id: 2,
-    images: "./img/Doyin2.jpeg",
-    name: "Doyin"
+    images: "./img/busola.jpg",
+    name: "Busola"
   },
   {
     id: 3,
@@ -182,6 +187,11 @@ const besties = [
     images: "./img/ope.jpeg",
     name: "Ope"
   },
+  {
+    id: 11,
+    images: "./img/tolu2.jpg",
+    name: "Tolu"
+  },
   
   {
     id: 6,
@@ -195,8 +205,8 @@ const besties = [
   },
   {
     id: 9,
-    images: "./img/empty.jpg",
-    name: "Name"
+    images: "./img/abiodun.jpg",
+    name: "Abiodun"
   },
   {
     id: 10,

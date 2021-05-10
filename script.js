@@ -39,7 +39,7 @@ let weekday = futureDate.getDay();
 weekday = weekdays[weekday];
 
 
-wedDate.innerHTML = `Date: ${weekday}  ${date}th ${month} ${year}, ${hours}:${mins}am`
+wedDate.innerHTML = `Date: ${weekday}  ${date}th ${month} ${year}, ${hours}:0${mins}am`
 
 const futureTime = futureDate.getTime();
 
@@ -65,14 +65,28 @@ const getCountDownStart = () => {
 
 
   const value = [days, hours, mins, secs];
+
+  const format =(item)=>{
+    if(item < 10){
+      return item = `0${item}`
+    }
+    return item
+  }
+
   countDown.forEach((item, index) => {
-    return item.innerHTML = value[index]
-  })
+    return item.innerHTML = format(value[index])
+  });
 
-
+  if(countDate < 0){
+    clearInterval(counter)
+    deadline.innerHTML = `<h1>Congraduations  <br> Mr and Mrs Adegoke</h1>`
+  }
+   
 };
 const counter = setInterval(getCountDownStart, 1000);
 getCountDownStart();
+
+
 
 const photoGallery = document.querySelector('.photo-gallery');
 const bestiesGallery = document.querySelector('.besties-gallery');

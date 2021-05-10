@@ -157,12 +157,12 @@ const pictures = [
   {
     id: 3,
     category: "All",
-    image: "./img/pic (8).jpg"
+    image: "./img/pic (9).jpg"
   },
   {
     id: 4,
     category: "All",
-    image: "./img/pic (9).jpg"
+    image: "./img/pic (8).jpg"
   },
   {
     id: 5,
@@ -224,7 +224,7 @@ const besties = [
   },
   {
     id: 10,
-    images: "./img/empty.jpg",
+    images: "./img/ido.jpg",
     name: "Name"
   },
   {

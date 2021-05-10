@@ -145,6 +145,16 @@ const pictures = [
     image: "./img/pic (6).jpg"
   },
   {
+    id: 3,
+    category: "All",
+    image: "./img/pic (9).jpg"
+  },
+  {
+    id: 4,
+    category: "All",
+    image: "./img/pic (8).jpg"
+  },
+  {
     id: 10,
     category: "intro",
     image: "./img/pic (3).jpg"
@@ -154,16 +164,7 @@ const pictures = [
     category: "intro",
     image: "./img/pic (7).jpg"
   },
-  {
-    id: 3,
-    category: "All",
-    image: "./img/pic (9).jpg"
-  },
-  {
-    id: 4,
-    category: "All",
-    image: "./img/pic (9).jpg"
-  },
+  
   {
     id: 5,
     category: "All",

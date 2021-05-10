@@ -195,12 +195,12 @@ const besties = [
   {
     id: 4,
     images: "./img/lolade.jpeg",
-    name: "Lolade"
+    name: "Ope"
   },
   {
     id: 5,
     images: "./img/ope.jpeg",
-    name: "Ope"
+    name: "Lolade"
   },
   {
     id: 11,
@@ -226,7 +226,7 @@ const besties = [
   {
     id: 10,
     images: "./img/ido.jpg",
-    name: "Name"
+    name: "Ido"
   },
   {
     id: 11,

@@ -230,19 +230,15 @@ const besties = [
   },
   {
     id: 11,
-    images: "./img/empty.jpg",
-    name: "Name"
+    images: "./img/emma.jpg",
+    name: "Emmanuel"
   },
   {
     id: 12,
     images: "./img/empty.jpg",
     name: "Name"
   },
-  {
-    id: 12,
-    images: "./img/empty.jpg",
-    name: "Name"
-  },
+  
 ]
 
 

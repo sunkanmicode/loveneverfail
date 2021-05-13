@@ -91,21 +91,7 @@ getCountDownStart();
 const photoGallery = document.querySelector('.photo-gallery');
 const bestiesGallery = document.querySelector('.besties-gallery');
 
-//stories
-// let curentActive = 1;
-// const story = document.querySelector(".story");
-// const prevBtn = document.querySelector(".prevBtn");
-// const nextBtn = document.querySelector(".nextBtn");
 
-// const displayActive = document.querySelectorAll(".story-btn");
-
-// nextBtn.addEventListener("click", ()=>{
-  
-//     curentActive++;
-  
-  
-//   console.log(nextBtn);
-// })
 
 const pictures = [
  
@@ -239,15 +225,46 @@ const besties = [
     name: "Name"
   },
   
-]
+];
+const data =[
+  {
+    image: 'img/Pic1.jpg',
+    para: 
+    "For us, our meeting was not the ordinary but that of divine connection meeting with destiny.It all started in Kiev, Ukraine. Tolu originally lived in Ivano-Frankivisk,Ukraine (Western Ukraine) while Ade lived in Kiev (the capital, North-central Ukraine).You can see the distance.Tolu’s parent happened to have come to visit her younger brother and herself. And on the day they boarded their flight back to Nigeria was the day of the divine connection.That faithful evening, on a normal day he won’t come to KFC - his routine was work and home. He was there to meet a friend and treat him as well. And as for her, she was a regular customer at KFC whenever she’s at Kiev."
+  },
+  {
+    image: "img/pic (1).jpg",
+    para: "She was on the queue to get some food when an African man came in speaking Yoruba on the phone. She looked back like, this is a public place. Then continued waiting to be attended to then got her meal went to her seat to wait for the train. She was to return to her city that evening. He walked up to me, asked for my name, told him my English name then he asked for my surname, I was very reluctant because I knew he was going to react like so you’re Yoruba. Which he did, he then started talking to me in Yoruba, asking for the state I’m from, I told him. He then requested for my contact, I only gave him because he was well dressed (which he jokingly teases me about, he tells his siblings and friends if you want a lady from Ogun State like his, just go and wear a blazer, shirt and trousers. He would say, nkan to ma je wan niyen)."
+  },
+  {
+    image: "img/Pic2.jpg",
+    para: "Anyways, the next morning he called her early in the morning (around 8-9am), she was already in her destination. She felt it was too early so intentionally didn’t pick the call. She called back at noon, he replied that he couldn’t speak then, he would call back later in the day. Tolu took it personal, thinking he was reciprocating her attitude towards him but he was actually busy then. He called later at night, we spoke for hours. From there we built friendship to what we are about to celebrate in May 29th."
+  },
+  {
+    image: "img/pic (14).jpg",
+    para: "It’s really been a journey of God’s faithfulness, understanding, patience, faith, hope and above all Love. We’re deeply grateful to God for divinely connecting us. We weren’t supposed to be where we were when we met. We were both done with medical school years back but to fulfill God’s perfect will for our lives, our lives went through the journey it did. Our deepest appreciation to God for making TOLU + ADE a reality and those he placed in our lives as counselors."
+  }
+  
+];
+
+const parag = document.querySelector('.para');
+console.log(parag);
+const storyImg = document.querySelector('.img-story');
+console.log(storyImg);
+
+const prevBtn = document.querySelector('.prevBtn');
+const nextBtn = document.querySelector('.nextBtn');
+
+let currentDate = 0;
 
 
 window.addEventListener('DOMContentLoaded', ()=>{
-  displayPictures();
+  displayPictures(currentDate);
+ 
   
 });
 
-const displayPictures = () =>{
+const displayPictures = (story) =>{
   const displayPic = pictures.map((pic) =>{
     return `<div class="col-4">
             <img src="${pic.image}" alt="">
@@ -263,4 +280,26 @@ const displayPictures = () =>{
     bestiesGallery.innerHTML = showPhoto;
   showPicture = displayPic.join('')
     photoGallery.innerHTML = showPicture;
+
+    const item = data[story];
+    parag.innerHTML = item.para;
+    storyImg.src = item.image;
+
 }
+nextBtn.addEventListener('click', ()=>{
+  currentDate++;
+  // if(currentDate > data.length -1){
+  //   currentDate = 0;
+  // }
+  displayPictures(currentDate);
+});
+prevBtn.addEventListener('click', ()=>{
+  currentDate--;
+  displayPictures(currentDate);
+})
+
+// const showStories = (stories) =>{
+//   const item = data[stories];
+//   para.innerHTML = item.para;
+//   storyImg.src = item.image;
+// }

@@ -193,6 +193,11 @@ const besties = [
     images: "./img/tolu2.jpg",
     name: "Tolu"
   },
+  {
+    id: 12,
+    images: "./img/doyin.jpg",
+    name: "Doyin"
+  },
   
   {
     id: 6,
@@ -221,8 +226,18 @@ const besties = [
   },
   {
     id: 12,
-    images: "./img/empty.jpg",
-    name: "Name"
+    images: "./img/teslim.jpg",
+    name: "Teslim"
+  },
+  {
+    id: 12,
+    images: "./img/adepoju.jpg",
+    name: "Adepoju"
+  },
+  {
+    id: 12,
+    images: "./img/olaoluwa.jpg",
+    name: "Olaoluwa"
   },
   
 ];
@@ -230,19 +245,19 @@ const data =[
   {
     image: 'img/Pic1.jpg',
     para: 
-    "For us, our meeting was not the ordinary but that of divine connection meeting with destiny.It all started in Kiev, Ukraine. Tolu originally lived in Ivano-Frankivisk,Ukraine (Western Ukraine) while Ade lived in Kiev (the capital, North-central Ukraine).You can see the distance.Tolu’s parent happened to have come to visit her younger brother and herself. And on the day they boarded their flight back to Nigeria was the day of the divine connection.That faithful evening, on a normal day he won’t come to KFC - his routine was work and home. He was there to meet a friend and treat him as well. And as for her, she was a regular customer at KFC whenever she’s at Kiev."
+    "For us, our meeting was not the ordinary but that of divine connection meeting with destiny. It all started in Kyiv, Ukraine. Tolulope originally lived in Ivano-Frankivisk, Ukraine (Western Ukraine) while Adegoke lived in Kyiv (the capital, North-central Ukraine). You can see the distance. Tolulope’s parents happened to have come to visit Ukraine, out of curiosity of knowing what the country they had sent three of their children looked like. And on the day they boarded their flight back to Nigeria was the day of the divine connection. That faithful evening, on a normal day he won’t come to KFC - his routine was work and home. He was there to meet a friend and treat him as well. And as for her, she was a regular customer at KFC whenever she’s in Kyiv."
   },
   {
     image: "img/pic (1).jpg",
-    para: "She was on the queue to get some food when an African man came in speaking Yoruba on the phone. She looked back like, this is a public place. Then continued waiting to be attended to then got her meal went to her seat to wait for the train. She was to return to her city that evening. He walked up to me, asked for my name, told him my English name then he asked for my surname, I was very reluctant because I knew he was going to react like so you’re Yoruba. Which he did, he then started talking to me in Yoruba, asking for the state I’m from, I told him. He then requested for my contact, I only gave him because he was well dressed (which he jokingly teases me about, he tells his siblings and friends if you want a lady from Ogun State like his, just go and wear a blazer, shirt and trousers. He would say, nkan to ma je wan niyen)."
+    para: "She was in the queue to get some food when an African man came in speaking Yoruba on the phone. She looked back like, this is a public place. Then continued waiting to be attended to then got her meal went to her seat to wait for the train. She was to return to her city that evening. He walked up to her, asked for her name, told him her English, then asked for her surname, she was very reluctant because she knew he would react like so you’re Yoruba. Which he did, he then started talking to her in Yoruba, asking for the state she's from, blah blah. He then requested for her contact,"
   },
   {
     image: "img/Pic2.jpg",
-    para: "Anyways, the next morning he called her early in the morning (around 8-9am), she was already in her destination. She felt it was too early so intentionally didn’t pick the call. She called back at noon, he replied that he couldn’t speak then, he would call back later in the day. Tolu took it personal, thinking he was reciprocating her attitude towards him but he was actually busy then. He called later at night, we spoke for hours. From there we built friendship to what we are about to celebrate in May 29th."
+    para: "she only gave him because he was well dressed (which he would jokingly tease her about, he tells his siblings and friends if you want a lady from Ogun State like his, just go and wear a blazer, shirt, and trousers. He would say, nkan to ma je wan niyen). Anyways, the next morning he called her early in the morning (around 8-9 am), she was already at her destination. She felt it was too early so intentionally didn’t pick the call. She called back at noon, he replied that he couldn’t speak then, he would call back later in the day. Tolulope took it personally, thinking he was reciprocating her attitude towards him but he was actually busy then."
   },
   {
     image: "img/pic (14).jpg",
-    para: "It’s really been a journey of God’s faithfulness, understanding, patience, faith, hope and above all Love. We’re deeply grateful to God for divinely connecting us. We weren’t supposed to be where we were when we met. We were both done with medical school years back but to fulfill God’s perfect will for our lives, our lives went through the journey it did. Our deepest appreciation to God for making TOLU + ADE a reality and those he placed in our lives as counselors."
+    para: "He called later at night, they spoke for hours. From there they built friendship to what they are about to celebrate on May 29th. It’s really been a journey of God’s faithfulness, understanding, patience, faith, hope, and above all Love. They’re deeply grateful to God for divinely connecting them. They weren’t supposed to be where they were when they met, coupled with the fact that they were both done with medical school years back but to fulfill God’s perfect will for their lives, their life journey went through what it did. Their deepest appreciation to God for making TOLULOPE + ADEGOKE a reality and to those he placed in their lives as counselors."
   }
   
 ];

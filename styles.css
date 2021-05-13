@@ -286,6 +286,7 @@ body{
   width: 100%;
   padding: 70px 0;
   background-color: #efefef;
+  position: relative;
 }
 .couple-bestie h1{
   text-align: center;  
@@ -297,8 +298,21 @@ body{
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fil-color: transparent;
-  
 } 
+.lit-girl{
+  width: 10%;
+  border-radius: 50%;
+  position: absolute;
+  top: 400px;
+  right: 250px;
+}
+.lit-boy{
+  width: 10%;
+  border-radius: 50%;
+  position: absolute;
+  top: 400px;
+  left: 250px;
+}
 .bestie-con{
   display: flex;
   justify-content: center;

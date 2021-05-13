@@ -371,6 +371,21 @@ body{
     justify-content: center;
    
   }
+  .lit-boy{
+    display: block;
+    position: relative;
+    width: 50%;
+    top: 10%;
+    left: 30%;
+    margin: 50px 0 50px 0;
+  }
+  .lit-girl{
+    display: block;
+    position: relative;
+    width: 50%;
+    top: 10%;
+    left: 30%;
+  }
 }
 
 /* Photo */

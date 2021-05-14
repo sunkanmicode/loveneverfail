@@ -231,7 +231,7 @@ body{
   width: 70%;
   border-radius: 40px;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .story{
     flex-basis: 100%;
   }
@@ -273,7 +273,7 @@ body{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .arrangement-col{
     flex-basis: 100%;
   }
@@ -304,13 +304,23 @@ body{
   border-radius: 50%;
   position: absolute;
   top: 400px;
-  right: 250px;
+  right: 200px;
+}
+.lit-bride{
+  position: absolute;
+  top: 570px;
+  right: 200px;
 }
 .lit-boy{
   width: 10%;
   border-radius: 50%;
   position: absolute;
   top: 400px;
+  left: 250px;
+}
+.lit-page{
+  position: absolute;
+  top: 570px;
   left: 250px;
 }
 .bestie-con{
@@ -359,7 +369,7 @@ body{
   justify-content: space-evenly;
   align-items: center;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .bestie-con{
     display: block;
  
@@ -372,19 +382,32 @@ body{
    
   }
   .lit-boy{
+    width: 50%;
     display: block;
     position: relative;
-    width: 50%;
     top: 10%;
-    left: 30%;
-    margin: 50px 0 50px 0;
+    left: 10%;
+    /* margin: 50px 0 50px 0; */
   }
   .lit-girl{
     display: block;
     position: relative;
     width: 50%;
     top: 10%;
-    left: 30%;
+    left: 10%;
+  }
+  .lit-page{
+    position: relative;
+    top: 5px;
+    left: 20%;
+    margin: 20px 0 20px 0;
+  }
+  .lit-bride{
+    position: relative;
+    top: 10px;
+    left: 20%;
+    margin: 20px 0 30px 0;
+
   }
 }
 
@@ -416,7 +439,7 @@ body{
 .col-4 img:hover{
   transform: scale(1.4);
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .photo-gallery{
     display: grid;
     grid-template-columns: 1fr;

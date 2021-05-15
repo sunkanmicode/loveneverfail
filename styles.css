@@ -6,11 +6,11 @@
   scroll-behavior: smooth;
 }
 
-/* body{
+body{
   font-family: 'Roboto Slab', serif;
   font-family: 'Train One', cursive;
  
-}  */
+} 
 
 #home {
   background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(img/Pic1.jpg);

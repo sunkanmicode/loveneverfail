@@ -1,17 +1,16 @@
 
-/* font-family: 'Lobster', cursive;
-font-family: 'Permanent Marker', cursive; */
-  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
-body{
+/* body{
   font-family: 'Roboto Slab', serif;
   font-family: 'Train One', cursive;
-} 
+ 
+}  */
 
 #home {
   background:  linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(img/Pic1.jpg);
@@ -110,7 +109,8 @@ body{
   font-size: 15px;
   font-style: italic;
   margin: 20px;
-  font-family: 'Kaushan Script', cursive;
+  /* font-family: 'Kaushan Script', cursive; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 .music{
@@ -139,7 +139,7 @@ body{
   text-align: center;  
   padding-bottom:  20px;
   font-family: 'Kaushan Script', cursive; 
-  font-weight: bold;
+  font-weight: bolder;
   background-image: linear-gradient(to top, #974ec3 0%, #63d2db 100%);
   background-size: 100%;
   -webkit-background-clip: text;

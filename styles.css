@@ -110,7 +110,7 @@ body{
   font-size: 15px;
   font-style: italic;
   margin: 20px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Kaushan Script', cursive;
  
 }
 .music{
@@ -139,6 +139,7 @@ body{
   text-align: center;  
   padding-bottom:  20px;
   font-family: 'Kaushan Script', cursive; 
+  font-weight: bold;
   background-image: linear-gradient(to top, #974ec3 0%, #63d2db 100%);
   background-size: 100%;
   -webkit-background-clip: text;

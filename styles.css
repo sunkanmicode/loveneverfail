@@ -224,6 +224,9 @@ body{
 }
 .para{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  font-style: italic;
+  
 }
 .story-img{
   flex-basis: 50%;

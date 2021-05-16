@@ -219,7 +219,7 @@ body{
 }
 .para{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bolder;
+ 
 }
 .story-img{
   flex-basis: 50%;
@@ -402,7 +402,7 @@ body{
     display: block;
     position: relative;
     top: 10%;
-    left: 15%;
+    left: 20%;
     /* margin: 50px 0 50px 0; */
   }
   .lit-girl{
@@ -410,18 +410,18 @@ body{
     position: relative;
     width: 50%;
     top: 10%;
-    left: 15%;
+    left: 20%;
   }
   .lit-page{
     position: relative;
     top: 5px;
-    left: 20%;
+    left: 25%;
     margin: 20px 0 20px 0;
   }
   .lit-bride{
     position: relative;
     top: 10px;
-    left: 20%;
+    left: 25%;
     margin: 20px 0 30px 0;
 
   }
@@ -462,6 +462,18 @@ body{
     grid-template-rows: auto;
     /* margin-left: 10%; */
   }
+}
+.btn-min button{
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: #efefef;
+}
+.btn-min button a{
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #333;
 }
 
 footer{

@@ -79,7 +79,7 @@ const getCountDownStart = () => {
 
   if(countDate < 0){
     clearInterval(counter)
-    deadline.innerHTML = `<h1>Congraduations  <br> Mr and Mrs Adegoke</h1>`
+    deadline.innerHTML = `<h1>Congraduations  <br> Mr and Mrs Adeyemi</h1>`
   }
    
 };

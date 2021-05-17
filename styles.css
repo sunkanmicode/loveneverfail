@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +8,6 @@
 body{
   font-family: 'Roboto Slab', serif;
   font-family: 'Train One', cursive;
- 
 } 
 
 #home {
@@ -217,16 +217,14 @@ body{
   margin-bottom: 10px;
   font-weight: 100%;
   color: var(--pri-clr2);
-}
+};
 .story p{
   padding: 0 20px;
   text-align: justify;
 }
 .para{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  font-style: italic;
-  
+  font-family: 'Satisfy', cursive;
+  font-size: 17px;
 }
 .story-img{
   flex-basis: 50%;
@@ -245,8 +243,10 @@ body{
     margin: 20px;
   }
   .para{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
   }
+  
 } 
 
 /* Wedding Arrengment */

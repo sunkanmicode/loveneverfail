@@ -25,6 +25,7 @@ const weekdays = [
 const wedDate = document.querySelector('.wed-date');
 const outcome = document.querySelector('h3');
 const countDown = document.querySelectorAll('.time p');
+const deadline = document.querySelector('.deadline');
 
 
 const futureDate = new Date(2021, 4, 29, 11, 00, 0);
